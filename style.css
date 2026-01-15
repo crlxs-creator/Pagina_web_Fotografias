@@ -1,0 +1,319 @@
+body{
+    margin: 0;
+}
+
+#Seccion_1{
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    height: 45em;
+}
+
+#Titulo_1{
+    margin-top: 7em;
+    margin-left: 1.1em;
+    font-style: inherit;
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Texto_1{
+    margin-left: 2em;
+    margin-right: 2em;
+    font-size: 1.5em;
+    text-align: justify;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+
+#Boton_Agenda{
+    margin-left: 2em;
+    font-size: 1.5em;
+    background-color: #438951;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: .2em;
+    border-style: none;
+    padding-top: .3em;
+    padding-bottom: .3em;
+    padding-left: .5em;
+    padding-right: .5em;
+    transition: all 0.3s ease;
+}
+
+#Boton_Agenda:hover{
+    background-color: #3A7392;
+    font-size: 1.7em;
+}
+
+#Boton_Agenda:active{
+    background-color: #63A0C1;
+}
+
+#Boton_Conoce{
+    margin-left:.5em;
+    font-size: 1.5em;
+    transition: all 0.3s ease;
+    background-color: white;
+    color: #438951;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: .3em;
+    padding-top: .3em;
+    padding-bottom: .3em;
+    padding-left: .5em;
+    padding-right: .5em;
+    border: 2px solid #438951;
+    outline: none;
+    
+}
+
+#Boton_Conoce:hover{
+    border: 2px solid #3A7392;
+    font-size: 1.7em;
+    color: #3A7392;
+}
+
+#Seccion_2{
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    height: 50em;
+    background-color: #1b1b27;
+}
+
+#Titulo_2{
+    margin-top: 2em;
+    margin-left: 1.5em;
+    font-style: inherit;
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#Texto_2{
+    margin-top: 2em;
+    margin-left: 2.5em;
+    margin-right: 2em;
+    font-size: 1.5em;
+    font-style: inherit;
+    font-family: 'Arial', Helvetica, sans-serif;
+    color: white;
+}
+
+#Contenedor_Boxes {
+    display: flex;           
+    gap: 1.25em;               
+    flex-wrap: wrap;         
+    justify-content: space-between;
+    margin-top: 3em;
+    width: 85%;
+    margin: 0 auto;
+}
+
+#Contenedor_Boxes ul {
+    margin-top: 1em;
+    padding-left: 1.2em;
+    text-align: left;
+    line-height: 1.5em;
+    font-size: 1em;
+}
+
+#Box_1, #Box_2, #Box_3{
+    background-color: #D1E7D1;
+    padding: 1.25em;
+    width: 20em;
+    border-radius: 0.625em;
+    border-style: solid;
+    border-width: 0.188em;
+    border-color: #E8F3E8;
+}
+
+#Box_4 {
+    width: 100%;          
+    padding: 2em;
+    background-color: transparent;   
+    border: 3px solid #FFFFFF;       
+    border-radius: 0.625em;
+    margin-top: 2em;
+    color: white;                    
+}
+
+#Titulo_C1{
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#Titulo_C2{
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#Titulo_C3{
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#Titulo_C4 {
+    text-align: center;
+    font-size: 1.7em;
+    margin: 0;
+    color: white;
+}
+
+#BoxTxt_1{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#BoxTxt_2{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#BoxTxt_3{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#BoxTxt_4 {
+    text-align: center;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1em;
+    color: white;
+}
+
+#Seccion_3{
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    height: 50em;
+    background-color: #1b1b27;
+}
+
+#Titulo_3{
+    margin-top: 2em;
+    margin-left: 1.5em;
+    font-style: inherit;
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#Texto_S3{
+    color: white;
+    font-size: 1.5em;
+    margin-left: 2.4em;
+    text-align: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* --- CARRUSEL CENTRADO ROBUSTO --- */
+.carousel {
+  width: 100%;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  background: transparent;
+}
+
+.carousel-track {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  pointer-events: auto;
+}
+
+.carousel-item {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0.75);
+  transform-origin: center center;
+  width: 300px;       /* aumenta/disminuye tamaño aquí */
+  height: 320px;      /* aumenta/disminuye altura aquí */
+  object-fit: cover;
+  border-radius: 16px;
+  transition: transform 420ms cubic-bezier(.22,.9,.3,1), opacity 300ms ease;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+  opacity: 0;
+  z-index: 1;
+}
+
+/* estilos opcionales cuando están visibles (se controlan desde JS) */
+.carousel-item.visible {
+  opacity: 1;
+}
+
+/* FLECHAS */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 34px;
+  color: white;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 6px;
+  background:rgba(0,0,0,0.45);
+  user-select: none;
+  z-index: 10;
+}
+.arrow-left { left: 12px; }
+.arrow-right { right: 12px; }
+.arrow:hover { background: rgba(0,0,0,0.45); }
+
+/* Responsive - ajusta tamaños en pantallas pequeñas */
+@media (max-width: 700px) {
+  .carousel-item { width: 180px; height: 220px; }
+}
+
+#Seccion_4{
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    height: 50em;
+}
+
+#Titulo_4{
+    margin-top: 2em;
+    margin-left: 1.5em;
+    font-style: inherit;
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Seccion_5{
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    height: 50em;
+    background-color: #1b1b27;
+}
+
+#Titulo_5{
+    margin-top: 2em;
+    margin-left: 1.5em;
+    font-style: inherit;
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#Subtitulo_1{
+    margin-left: 2.7em;
+    font-style: bold;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#Subtitulo_2{
+    margin-left: 2.8em;
+    font-style: bold;
+    font-size: 1.3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
