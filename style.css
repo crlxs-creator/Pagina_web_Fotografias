@@ -95,8 +95,8 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 25px;
-    max-width: 1200px; /* Limita el ancho máximo para centrar mejor */
-    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
 
 #Contenedor_Boxes div {
